@@ -1,0 +1,191 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+.banner{
+    width: 100%;
+    height: 600px;
+   background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url("../my-practice/images/donation14.webp");
+   text-align: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   
+}
+.banner-title{
+    
+    color: white;
+    font-weight: 700;
+    font-size:65px;
+    padding-top: 120px;
+    margin-bottom: 20px;
+
+    
+    
+}
+.banner-description{
+    color: white;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.btn-primary{
+    font-size: 20px;
+    color: white;
+    background:#FF5959;
+    border-radius: 5px;
+    padding: 15px 20px;
+    border: none;
+}
+/* main section */
+main{
+    text-align: center;
+}
+.donate-title{
+    color:#121212;
+    font-weight: 700;
+    font-size: 45px;
+    margin-top:130px
+}
+.donate-description{
+    color: #707070;
+    font-size:18px;
+    margin-top:20px;
+    
+}
+.amount{
+   display: flex;
+   padding: 15px 180px;
+   gap: 5pxpx;
+   
+   
+   
+}
+.amount-item{
+    
+    background-color: #e6e3e3;
+    padding:30px 20px;
+    border-radius: 5px;
+    margin: 20px 50px;
+    color: rgb(77, 76, 76);
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    
+    
+    
+}
+hr{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    border: 1px solid rgb(127, 126, 126);
+    text-align: center;
+    justify-content: center;
+    
+}
+.mid{
+
+}
+.mid-title{
+    color:#121212;
+    font-weight: 700;
+    font-size: 45px;
+    margin-top:130px
+}
+.need{
+    display: flex;
+    padding: 50px;
+    gap: 20px;
+    text-align: center;
+    justify-content: center;
+}
+.need-item-one{
+    font-size: 24px;
+    width: 20%;
+    height: 300px;
+    background: rgb(181, 211, 240);
+    padding: 20px 20px;
+}
+.need-item-two{
+    font-size: 24px;
+    width: 20%;
+    height: 300px;
+
+    background: rgb(241, 189, 189);
+    padding: 20px 20px;
+}
+.need-item-three{
+    font-size: 24px;
+    width: 20%;
+    height: 300px;
+    background: rgb(234, 234, 194);
+    padding: 20px 20px;
+}
+.image-section{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+}
+.image-title-section{
+
+    background: #eeecec;
+    width: 30%;
+    gap: 20px;
+   
+}
+.image-title{
+    font-size:45px ;
+    
+}
+.image-description{
+    
+    
+}
+img{
+    width: 400px;
+    height: 300px;
+}
+.image-section-two{
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    gap: 20px;
+}
+.update{
+    margin: 20px;
+    justify-content: center;
+}
+.update-title{
+    margin-top: 50px;
+    font-size: 45px;
+}
+
+.email{
+    text-align: right;
+    background:rgb(251, 251, 218);
+    width: 30%;
+    height: 20px;
+    text-align: center;
+    padding: 50px 100px;
+    margin: 30px 30px;
+    justify-content: center;
+    margin-left: 400px;
+}
+
+footer{
+    background: black;
+    width: 100%;
+    height: 150px;
+    margin: 50px 0px;
+}
+.footer-title{
+    text-align: center;
+    
+    padding: 35px 0px;
+}
+.last-title{
+    color: red;
+}
+.last-description{
+    color: white;
+}
